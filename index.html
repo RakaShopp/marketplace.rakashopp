@@ -3,40 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Raka Shop - Beranda</title>
+  <title>Raka Shop</title>
   <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+<div class="overlay" onclick="toggleMenu()"></div>
+
 <header>
-  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
   <h1>Raka Shop</h1>
 </header>
 
 <nav id="sidebar">
-  <a href="index.html">Beranda</a>
-  <a href="pulsa-indosat.html">Pulsa Indosat</a>
-  <a href="pulsa-telkomsel.html">Pulsa Telkomsel</a>
-  <a href="kuota-indosat.html">Kuota Indosat</a>
-  <a href="kuota-telkomsel.html">Kuota Telkomsel</a>
-  <a href="topup-ml.html">Top Up Mobile Legends</a>
-  <a href="topup-ff.html">Top Up Free Fire</a>
-  <a href="topup-pubg.html">Top Up PUBG</a>
+  <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+  <a href="#"><i class="fas fa-signal"></i> Pulsa Indosat</a>
+  <a href="#"><i class="fas fa-signal"></i> Pulsa Telkomsel</a>
+  <a href="#"><i class="fas fa-wifi"></i> Kuota Indosat</a>
+  <a href="#"><i class="fas fa-wifi"></i> Kuota Telkomsel</a>
+  <a href="#"><i class="fas fa-gamepad"></i> Top Up ML</a>
+  <a href="#"><i class="fas fa-gamepad"></i> Top Up FF</a>
+  <a href="#"><i class="fas fa-gamepad"></i> Top Up PUBG</a>
 </nav>
 
 <main>
-  <div class="content-box">
+  <section class="hero">
     <div class="profile-pic"></div>
-    <h2 style="text-align:center">Selamat datang di Raka Shop</h2>
-    <p style="text-align:center">
-      Kami menyediakan layanan:<br>
-      ✅ Top up game (ML, Free Fire, PUBG)<br>
-      ✅ Pulsa semua operator<br>
-      ✅ Kuota internet<br><br>
-      Harga murah, proses cepat, dan terpercaya!<br>
-      Silakan pilih layanan dari menu di sebelah kiri.
-    </p>
-  </div>
+    <h2>Selamat Datang di Raka Shop</h2>
+    <p>Tempat terbaik untuk top up game, pulsa & kuota murah terpercaya.</p>
+    <a href="https://wa.me/6281234567890" class="wa-button" target="_blank">
+      <i class="fab fa-whatsapp"></i> Order via WhatsApp
+    </a>
+  </section>
 </main>
 
 <script src="assets/script.js"></script>
